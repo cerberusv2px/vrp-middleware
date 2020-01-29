@@ -70,7 +70,7 @@ let options = {
   // pythonPath: '../../../../PycharmProjects/vrp/venv/lib/python3.6/site-packages',
   pythonOptions: ['-u'],
   scriptPath: '../../../../PycharmProjects/vrp/',
-  args: [data]
+  args: [data, 2]
 };
 
 PythonShell.run('main.py', options, function(err, output) {
